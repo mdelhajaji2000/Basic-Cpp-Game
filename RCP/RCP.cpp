@@ -211,7 +211,7 @@ void close()
     getline(cin, C); /* Simple close systeme to Open the exe file without closing whene there is no input from user */
     return;
 }
-void FREEPALSTINE();
+
 int main()
 {
 	startupAndRules();
@@ -221,18 +221,5 @@ int main()
 	return 0;
 }
 
-void FREEPALSTINE()
-{
-    cout << RED << "*" << DARK_GRAY << "********************************" << endl;
-    cout << RED << "****" << DARK_GRAY << "*****************************" << endl;
-    cout << RED << "******" << DARK_GRAY << "***************************" << endl;
-    cout << RED << "*********" << WHITE << "************************" << endl;
-    cout << RED << "***********" << WHITE << "**********************" << endl;
-    cout << RED << "*********" << WHITE << "************************" << endl;
-    cout << RED << "*******" << GREEN << "**************************" << endl;
-    cout << RED << "****" << GREEN << "*****************************" << endl;
-    cout << RED << "*" << GREEN << "********************************" << endl;
-    cout << RESET << endl;
-    cout << "# FREE PALASTINE " << endl;
-}
+
 // Finished The 20/12/2023 at 00:55 (One Day of Worck!!)
